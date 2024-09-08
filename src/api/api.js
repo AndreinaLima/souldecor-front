@@ -2,8 +2,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://e-commerce-rn2-back.onrender.com/api',
-});
+  baseURL: "https://souldecor-back.onrender.com/api",
+})
 
 const getToken = () => sessionStorage.getItem('token');
 
