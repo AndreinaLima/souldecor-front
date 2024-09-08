@@ -1,0 +1,47 @@
+/* Estilo para tablets e telas pequenas */
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+}
+
+/* Estilo específico para smartphones pequenos */
+@media (max-width: 428px) {
+  table {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: scroll;
+    display: block;
+  }
+
+  th, td {
+    font-size: 10px; 
+    padding: 8px; 
+  }
+
+  th {
+    background-color: #f7f7f7; 
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9; 
+  }
+
+}
+
+/* Estilo específico para ocultar o e-mail em telas menores que 390px */
+@media (max-width: 390px) {
+  td:nth-child(3), /* Oculta a célula de e-mail */
+  th:nth-child(3) { /* Oculta o cabeçalho de e-mail */
+    display: none;
+  }
+}
+

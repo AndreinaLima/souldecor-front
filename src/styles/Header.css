@@ -1,0 +1,51 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+header .navbar {
+  background-color: var(--background-color);
+}
+
+header .navbar .navbar-brand img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+header .navbar .nav-link {
+  color: var(--text-color);
+}
+
+header .navbar .nav-link:hover {
+  color: var(--accent-color);
+}
+
+.cart-icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-badge {
+  position: absolute;
+  top: 0; 
+  right: -5px; 
+  background-color: #000;
+  color: var(--text-color);
+  border-radius: 50%;
+  width: 20px; 
+  height: 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px; 
+  padding: 0; 
+}
+
+
+.custom-dropdown-item:hover,
+.custom-dropdown-item:focus {
+  color: var(--background-color) !important;
+  background-color: transparent !important;
+}

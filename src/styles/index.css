@@ -1,0 +1,41 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --primary-color: #FFFFFF;
+  /* Branco */
+  --secondary-color: #F5F5F5;
+  /* Branco Suave */
+  --accent-color: #191919;
+  /* Dourado */
+  --background-color: #A4AF97;
+  /* Preto */
+  --text-color: #FFFEEB;
+  /* Cinza Escuro */
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fafafa;
+}
+
+/* Estilos para dispositivos móveis nos filtros de produtos */
+@media (max-width: 860px) {
+  .form-control::placeholder {
+    font-size: 12px;
+  }
+
+  .input-group {
+    margin-bottom: 10px;
+    height: 100%;
+  }
+
+  .form-select {
+    font-size: 12px;
+  }
+
+  .form-select option {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,45 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* Garante que o body ocupe toda a altura da viewport e se comporta como flex container */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0;
+}
+
+
+main {
+  flex: 1;
+  min-height: 80vh; 
+}
+
+footer {
+  background-color: var(--background-color);
+  color: antiquewhite;
+  padding: 2rem 0;
+  text-align: center;
+  width: 100%; 
+}
+
+footer p {
+  font-size: 1.2rem; 
+  font-weight: bold; 
+}
+
+footer a {
+  color: var(--text-color);
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+footer a:hover {
+  text-decoration: underline; 
+}
+
+@media (max-width: 860px) {
+  footer p {
+    font-size: 1rem;
+  }
+}

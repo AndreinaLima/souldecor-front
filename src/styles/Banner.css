@@ -1,0 +1,21 @@
+.banner-section {
+  text-align: center;
+  padding: 2rem 0;
+  background: linear-gradient(180deg, #A4AF97, #A4AF97, #A4AF97, #fafafa);
+}
+
+.banner-section img {
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 5px;
+}
+
+.banner-section p {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.banner-carousel .carousel-inner img {
+  height: 100% !important;
+  object-fit: cover !important;
+}

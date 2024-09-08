@@ -1,0 +1,14 @@
+.custom-tabs .nav-link {
+    color: #000;
+}
+
+.custom-tabs .nav-link.active {
+    background-color: #000;
+    font-weight: bold;
+}
+
+.custom-tabs .nav-link:hover {
+    background-color: #007208;
+    color: #fff;
+    font-weight: bold;
+}

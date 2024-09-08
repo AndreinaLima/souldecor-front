@@ -1,0 +1,26 @@
+.pagination-black .page-item {}
+
+.container h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.pagination-black .page-link {
+  color: #000;
+  border-color: #000;
+}
+
+.pagination-black .page-item.active .page-link {
+  background-color: var(--background-color);
+  border-color: #000;
+}
+
+.pagination-black .page-link:focus {
+  box-shadow: none;
+}
+
+
+.pagination-black .page-link:hover {
+  background-color: #000;
+  color: #ffff;
+}

@@ -1,0 +1,74 @@
+/* Estilo geral do carrossel */
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(100%);
+    /* Isso vai tornar as flechas brancas */
+    font-size: 24px;
+    /* Aumenta o tamanho das flechas */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Adiciona um fundo sutil ao passar o mouse */
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.carousel-item img {
+    object-fit: contain;
+    height: 300px;
+    /* Altura fixa para as imagens */
+    width: 100%;
+    /* Largura total do contêiner */
+}
+
+/* Estilo da legenda */
+.carousel-caption {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.carousel-caption h5,
+.carousel-caption p {
+    margin: 0;
+}
+
+.carousel-caption h5 {
+    margin-bottom: 5px;
+    /* Espaço entre o título e a descrição */
+}
+
+.carousel-caption p {
+    margin-top: 5px;
+    /* Espaço entre a descrição e a borda inferior */
+}
+
+.custom-btn {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+    border-color: var(--background-color) !important;
+  }
+  
+  .custom-btn:hover {
+    background-color: #000 !important; 
+    color: var(--text-color) !important;
+    border-color: var(--hover-background-color)
+  }
+  

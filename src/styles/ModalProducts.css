@@ -1,0 +1,16 @@
+.modal-footer .button-update {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important; 
+    border:none;
+}
+
+.modal-footer .button-update:hover {
+    background-color: #000!important; 
+    color: var(--text-color) !important; 
+    
+}
+
+.modal-footer .button-update:focus, .button-update:active {
+    outline: none;
+    box-shadow: none; 
+}
